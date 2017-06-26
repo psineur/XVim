@@ -226,7 +226,7 @@ NSString * const XVimDocumentPathKey = @"XVimDocumentPathKey";
         _keymaps[i] = [[XVimKeymap alloc] init];
     }
     
-    [_options addObserver:self forKeyPath:@"debug" options:NSKeyValueObservingOptionNew context:nil];
+    //[_options addObserver:self forKeyPath:@"debug" options:NSKeyValueObservingOptionNew context:nil];
 }
 
 - (void)addMenuItem:(NSNotification*)notification{
